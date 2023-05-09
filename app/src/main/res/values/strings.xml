@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">MobileApplicationFinanceApp</string>
+
+    <!-- LOGIN SCREEN -->
+    <string name="tv_login_title_text">Welcome!</string>
+    <string name="et_login_email_hint">Email ID</string>
+    <string name="et_login_password_hint">Password</string>
+    <string name="tv_login_forgotpassword_text"><u>Forgot Password?</u></string>
+    <string name="btn_login_login_text">Login</string>
+    <string name="tv_login_donthaveanaccount_text">Don\'t have an account?</string>
+    <string name="tv_login_register_text"><u>Register</u></string>
+
+    <!-- REGISTER SCREEN -->
+    <string name="tv_register_title_text">CREATE AN ACCOUNT</string>
+    <string name="til_register_firstname_hint">First name</string>
+    <string name="til_register_confirmpassword_hint">Confirm Password</string>
+    <string name="cb_register_termsandcondition_text">I Agree to the <u>Terms and Condition</u></string>
+    <string name="btn_register_register_text">Register</string>
+    <string name="tv_register_alreadyhaveanaccount_text">Already have an account?</string>
+    <string name="tv_register_login_text"><u>Login</u></string>
+    <!-- Error messages for register UI -->
+    <string name="err_msg_enter_first_name">Please enter first name.</string>
+    <string name="err_msg_enter_last_name">Please enter last name.</string>
+    <string name="err_msg_enter_email">Please enter email.</string>
+    <string name="err_msg_enter_password">Please enter password.</string>
+    <string name="err_msg_enter_confirm_password">Please enter confirm password.</string>
+    <string name="err_msg_password_and_confirm_password_mismatch">Password and confirm password does not match.</string>
+    <string name="err_msg_agree_terms_and_condition">Please agree terms and condition.</string>
+    <string name="register_success">You are registered successfully.</string>
+
+
+    <!-- FORGOT PASSWORD SCREEN -->
+    <string name="tv_forgotpassword_title_text">FORGOT PASSWORD?</string>
+    <string name="tv_forgotpassword_description_text">Please enter your e-mail address and we\'ll send you an email to reset your password</string>
+    <string name="btn_forgotpassowrd_submit_text">Submit</string>
+
+
+    <string name="iv_settings_userphoto_contentdescription">Logo of Fachhochschule Joanneum</string>
+    <string name="til_lastname_hint">Last name</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_basic">BasicActivity</string>
+    <string name="title_activity_finance_main_page">FinanceMainPage</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "589066948512",
+    "project_id": "poettlerfinanceapp",
+    "storage_bucket": "poettlerfinanceapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589066948512:android:eccc7f0ce810d7f97d1ec5",
+        "android_client_info": {
+          "package_name": "com.example.mobileapplicationfinanceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589066948512-mg0lg7r3k3e1nbpl9o40c8c3fopetuqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDanL1e3y6i54RdKvTbbCyAnqdkgkNRVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589066948512-mg0lg7r3k3e1nbpl9o40c8c3fopetuqr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
