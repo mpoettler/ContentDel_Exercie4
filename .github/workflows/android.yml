@@ -30,3 +30,14 @@ jobs:
       with:
         name: Application-release.apk
         path: Application/build/outputs/apk/release/Application-release.apkß
+        
+    - name: Prepare Keystore and properties
+      run: |
+        echo "${{secrets.ANDROID_KEYSTORE}}" > keystore.asc
+        mkdir Application/keystore
+        gpg -d --passphrase "${{secrets.ANDROID_KEYSTORE_PASSPHRASE}}" --
+batch android-keystore.asc > Application/keystore/keystore.jks echo "storePassword=${{secrets.ANDROID_KEYSTORE_PASSPHRASE}}" >> gradle.properties echo "keyPassword=${{secrets.ANDROID_KEYSTORE_PASSPHRASE}}" >> gradle.properties
+
+    - name: Final Check with Jar Signer
+      run: |
+        jarsigner -verify -verbose -certs path/to/release.apk
